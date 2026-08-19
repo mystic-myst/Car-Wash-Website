@@ -1,0 +1,42 @@
+// ===== Font Import ===== //
+
+@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Overpass:ital,wght@0,100..900;1,100..900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+@font-face {
+  font-family: "Futura-Book";
+  src: url("/assets/fonts/Futura-Book.woff2") format("woff2"),
+    url("/assets/fonts/Futura-Book.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Futura-Light";
+  src: url("/assets/fonts/Futura-Light.woff2") format("woff2"),
+    url("/assets/fonts/Futura-Light.woff") format("woff");
+}
+
+// ===== Font Families ===== //
+
+$body-font: "Futura-Book", sans-serif;
+$subtitle-font: "Futura-Light";
+$header-font: "Overpass", sans-serif;
+$display-font: "Hammersmith One", sans-serif;
+$logo-font: "Quantico", sans-serif;
+
+// ===== Font Sizes ===== //
+
+// Display Fonts
+$font-d1: clamp(64px, 6vw, 96px);
+$font-d2: clamp(56px, 4vw, 72px);
+$font-d3: 3rem;
+
+// Headings
+$font-h1: clamp(32px, 3.5vw, 40px);
+$font-h2: clamp(28px, 3vw, 36px);
+$font-h3: clamp(24px, 2.5vw, 32px);
+$font-h4: clamp(22px, 2vw, 28px);
+$font-h5: clamp(18px, 1.8vw, 24px);
+
+// Body Text
+$font-b1: clamp(16px, 1.5vw, 20px);
+$font-b2: clamp(14px, 1.2vw, 18px);
+$font-b3: clamp(12px, 1vw, 14px);

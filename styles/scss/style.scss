@@ -1,0 +1,76 @@
+@use "index" as *;
+
+// Global
+
+h2,
+h4,
+p {
+  color: $secondary-color;
+}
+
+body {
+  background-color: $primary-color;
+}
+
+button {
+  font-family: $header-font;
+}
+
+.container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.heading {
+  width: 100%;
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: $section-spacing-medium;
+
+  h2 {
+    text-align: right;
+    width: fit-content;
+    max-width: 280px;
+    margin-bottom: 0;
+  }
+  h3 {
+    max-width: 400px;
+    margin-bottom: 0;
+  }
+  .separator {
+    width: 3.5px;
+    background-color: $accent-color;
+  }
+}
+
+.accent-text {
+  color: $accent-color;
+}
+
+ul,
+li {
+  text-decoration: none;
+  padding: 0;
+  list-style: none;
+}
+
+.section-spacing {
+  padding-top: $section-spacing-large;
+}
+
+// Placeholder
+
+/* For WebKit browsers (Safari, Chrome, etc.) */
+.form-control::-webkit-input-placeholder {
+  color: #aaa;
+}
+
+/* For Mozilla Firefox */
+.form-control:-moz-placeholder {
+  color: #aaa;
+}
+
+/* For Internet Explorer 10+ */
+.form-control:-ms-input-placeholder {
+  color: #aaa;
+}

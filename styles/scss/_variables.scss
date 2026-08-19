@@ -1,0 +1,24 @@
+// ===== Colors ===== //
+
+$primary-color: #f0f0f0;
+$primary-bolder: #d9d9d9;
+$secondary-color: #404040;
+$secondary-bolder: #292828;
+$accent-color: #9747ff;
+$accent-bolder: #672db3;
+$white: #ffffff;
+$black: #000000;
+$gray: #d9d9d9;
+
+// ===== Section Spacing ===== //
+
+$section-spacing-extra-large: clamp(124px, 12vw, 160px);
+$section-spacing-large: clamp(96px, 8vw, 120px);
+$section-spacing-medium: clamp(64px, 6vw, 80px);
+$section-spacing-small: clamp(24px, 2.2vw, 32px);
+
+// ===== Shadow Effects ===== //
+
+$button-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+$element-lift: 0px 2px 6px rgba(0, 0, 0, 0.15);
+$element-drop: inset 0px 4px 16px 1px rgba(0, 0, 0, 0.25);
