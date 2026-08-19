@@ -12,7 +12,7 @@ A responsive car wash website designed in Figma and implemented as a functional 
 
 * HTML
 * SCSS / CSS
-* JavaScript
+* Bootstrap
 * Figma
 
 ## Design
@@ -29,7 +29,6 @@ The website interface was initially designed in Figma and then implemented as a 
 
 ```text
 ├── assets/       # Images and fonts
-├── scripts/      # JavaScript
 ├── styles/
 │   ├── scss/     # SCSS source files
 │   └── css/      # Compiled CSS
