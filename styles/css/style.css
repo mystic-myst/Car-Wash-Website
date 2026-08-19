@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Overpass:ital,wght@0,100..900;1,100..900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 @font-face {
   font-family: "Futura-Book";
-  src: url("/assets/fonts/Futura-Book.woff2") format("woff2"), url("/assets/fonts/Futura-Book.woff") format("woff");
+  src: url("assets/fonts/Futura-Book.woff2") format("woff2"), url("assets/fonts/Futura-Book.woff") format("woff");
 }
 @font-face {
   font-family: "Futura-Light";
-  src: url("/assets/fonts/Futura-Light.woff2") format("woff2"), url("/assets/fonts/Futura-Light.woff") format("woff");
+  src: url("assets/fonts/Futura-Light.woff2") format("woff2"), url("assets/fonts/Futura-Light.woff") format("woff");
 }
 h1,
 h2,
@@ -201,7 +201,7 @@ p {
 .hero {
   color: #f0f0f0;
   position: relative;
-  background-image: url(/assets/images/hero-bg.webp);
+  background-image: url(assets/images/hero-bg.webp);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -369,7 +369,7 @@ p {
 }
 
 .cta {
-  background-image: url(/assets/images/cta-bg.webp);
+  background-image: url(assets/images/cta-bg.webp);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
